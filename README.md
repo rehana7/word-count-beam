@@ -19,6 +19,6 @@ mvn archetype:generate `
 ## Run WordCount Using Maven - powershell command
 ``mvn compile exec:java -D exec.mainClass=org.apache.beam.examples.WordCount ` -D exec.args="--inputFile=sample.txt --output=counts" -P direct-runner
 
-Set up Environment
+## Set up Environment
 Java
 Maven 
